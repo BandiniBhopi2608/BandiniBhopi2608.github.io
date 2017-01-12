@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bandini Bhopi Resume</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+	$(document).ready(function(){
+	  // Add smooth scrolling to all links in navbar + footer link
+	  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+	   // Make sure this.hash has a value before overriding default behavior
+	  if (this.hash !== "") {
+
+		// Prevent default anchor click behavior
+		event.preventDefault();
+
+		// Store hash
+		var hash = this.hash;
+
+		// Using jQuery's animate() method to add smooth page scroll
+		// The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+		$('html, body').animate({
+		  scrollTop: $(hash).offset().top
+		}, 900, function(){
+
+		  // Add hash (#) to URL when done scrolling (default click behavior)
+		  window.location.hash = hash;
+		  });
+		} // End if
+	  });
+	})
+	</script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+	
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainMenu">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>                        
+		  </button>
+		  <a class="navbar-brand self" href="#intro">Bandini Bhopi</a>
+		</div>
+		<div class="collapse navbar-collapse" id="mainMenu">
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a href="#summary">SUMMARY</a></li>
+			<li><a href="#exp">EXPERIENCE</a></li>
+			<li><a href="#education">EDUCATION</a></li>
+			<li><a href="#projects">PROJECTS</a></li>
+			<li><a href="#skills">SKILLS</a></li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+	
+	<div id="intro" class="container-fluid background_1 text-center">
+		<div class="panel panel-default panel-responsive">
+		  <div class="panel-body">
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<img src="Me.jpg" class="img-responsive img-thumbnail" alt="Bandini Bhopi" width="467" height="350">					
+				</div>
+				<div class="col-md-8 text-left bio">
+					<div class="row row-margin">
+						<div class="col-md-12 intro-name">Bandini Bhopi</div>
+						<div class="col-md-12 intro-sub ">Graduate Student at California State University Long Beach</div>
+					</div>
+					<div class="row row-margin">
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-12 intro-heading">Email:</div>
+								<div class="col-md-12 intro-data">bandini.bhopi@student.csulb.edu</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-12 intro-heading">Phone:</div>
+								<div class="col-md-12 intro-data">+1 562-787-8461</div>
+							</div>
+						</div>
+					</div>
+					<div class="row row-margin">
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-12 intro-heading">Address:</div>
+								<div class="col-md-12 intro-data">5050 E Garford Street<br>Long Beach,CA 90815</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-12 intro-heading">Date of Birth:</div>
+								<div class="col-md-12 intro-data">March 26th, 1991</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 intro-data">
+						<a href="https://www.linkedin.com/in/bandinibhopi" target="_blank">https://www.linkedin.com/in/bandinibhopi</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		  </div>
+		</div>
+	  
+	</div>
+	
+	<div id="summary" class="container-fluid background_2 text-center">
+	  <h2>SUMMARY</h2>
+	  <div class="row row-margin">
+		<div class="col-md-2"></div>
+			<div class="col-md-8 text-justify data-font">
+				<ul>
+					<li class="row-margin">Graduate student in Computer Science at California State University Long Beach, actively seeking opportunities for a summer internship 2017.</li>
+					<li class="row-margin">3.5+ years of professional experience in developing windows and web based applications.</li>
+					<li class="row-margin">Excellent programming using ASP.NET, ASP.NET MVC, C#, JAVA, XML, Web service, Window Service, WCF, Web API, HTML, JavaScript, CSS, Ajax and jQuery.</li>
+					<li class="row-margin">In-depth knowledge of SQL.</li>
+				</ul>
+		</div>
+		<div class="col-md-2"></div>
+	  </div>
+	  
+	  <a href="Bandini Bhopi_Resume.pdf" target="_blank" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-download"></span>&nbsp;&nbsp;Download Resume</a>
+	</div>
+
+	<div id="exp" class="container-fluid background_3 text-center">
+	  <h2>EXPERIENCE</h2>
+	  <ul class="timeline">
+		<li><div class="tldate">July 2016</div></li>
+    
+		<li>
+		  <div class="tl-circ"></div>
+		  <div class="timeline-panel">
+			<h4>Programmer at Ameya Infovision Private Limited, Mumbai, India</h4>
+			<div class="tl-body intro-data">
+				<p>Nov 2015 to July 2016</p>
+				<p>During the tenure of my employment in Ameya Infovision Pvt. Ltd, I worked as a PROGRAMMER on project named Commodity Notification using SQL, Window Service, Web API.</p>
+			</div>
+		  </div>
+		</li>
+		
+		<li><div class="tldate">Sept 2015</div></li>
+		
+		<li class="timeline-inverted">
+		  <div class="tl-circ"></div>
+		  <div class="timeline-panel">
+			<h4>Software Developer at Niche Softek Private Limited, Mumbai</h4>
+			<div class="tl-body intro-data">
+				<p>Sept 2012 to Sept 2015</p>
+				<p>During the tenure of my employment in Niche Softek Pvt. Ltd, I worked as a Software Developer on several projects named 
+				<abbr title="Queue Management System">QMS</abbr>, Meeting Room Scheduler, Streme Digital Signage and AUR using C#.Net, ASP.Net, SQL, Window Service, WCF, WPF, Asp.Net Web Service, Javascript, CSS, Ajax, Youtube API, FTP, SFTP, IIS.</p>
+			</div>
+		  </div>
+		</li>
+	  </ul>
+	 </div>
+	
+	<div id="education" class="container-fluid background_2 text-center">
+		<h2>EDUCATION</h2>
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-4 panel-border" >
+				<h4>California State University, Long Beach, CA</h4>
+				<h3 class="text-muted">Fall 2016 - Fall 2018(Expected)</h3>
+				<h3 class="text-muted">MS in Computer Science</h3>
+				<div class="panel panel-default panel-responsive text-left">
+					<div class="panel-heading">Relevant Coursework</div>
+					<div class="panel-body">
+						<ul>
+							<li>Advanced Analysis of Algorithms</li>
+							<li>Advanced Programming Languages</li>
+							<li>Object–Oriented Analysis and Design</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2"></div>
+			<div class="col-md-4 panel-border">
+				<h4>Rajiv Gandhi Institute of Technology, Mumbai, India.</h4>
+				<h3 class="text-muted">August 2008 - May 2012</h3>
+				<h3 class="text-muted">B.E. in Computer Engineering</h3>
+				<div class="panel panel-default panel-responsive text-left">
+					<div class="panel-heading">Relevant Coursework</div>
+					<div class="panel-body">
+						<ul>
+							<li>Computer Architecture</li>
+							<li>Data Structure & Files</li>
+							<li>Database Management System</li>
+							<li>Web Engineering</li>
+							<li>Mobile Computing</li>
+							<li>System Security</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+	</div>
+	
+	<div id="projects" class="container-fluid background_3 text-center">
+		<h2>PROJECTS</h2>
+		<div class="text-left">
+			<p class="intro-heading">Commodity Notification</p>
+			<p class="intro-data border-bottom">Developed Notification module to notify users about the commodity exceptions through Email or SMS using SQL, Window Service, Web API</p>
+			
+			<p class="intro-heading">Queue Management System</p>
+			<p class="intro-data border-bottom">Developed a professional website & Kiosk to manage waiting customers and visitors using ASP.Net, CSS, C#.Net, TCP/IP, SQL</p>
+			
+			<p class="intro-heading">Meeting Room Scheduler</p>
+			<p class="intro-data border-bottom">Developed a web application for scheduling and displaying meeting integrated with outlook and exchange and Active Directory using technologies like ASP.Net, Active Directory, Web Service, SQL.</p>
+			
+			<p class="intro-heading">Streme Digital Signage</p>
+			<p class="intro-data border-bottom">Enhanced this window application which is used to display anything from news channels to twitter feeds, photographs to advertisements onto the same screen, at the same time. Technologies used for this application are C#.Net, ASP.Net, FTP, SFTP, TCP/IP, WOL (Wake On LAN), Web Service, Window Service, SQL</p>
+			
+			<p class="intro-heading">AUR</p>
+			<p class="intro-data">Developed a complete utility to fetch all the machine information which ensures that the machine is ready for installation and send report of check to configured email ID using C#.Net, SMTP, Windows API.</p>
+		</div>
+	</div>
+	
+	<div id="skills" class="container-fluid background_2 text-center">
+		<h2>SKILLS</h2>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">C#.NET</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">ASP.NET</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">ASP.NET MVC</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">HTML</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">Bootstrap</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">CSS3</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">JavaScript</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">jQuery</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">Java</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">SQL</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">ASP.NET Web Service</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">Window Service</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">XML</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">WCF</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">AJAX</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer class="container-fluid background_4 text-center">
+	  <a href="#myPage" title="To Top">
+		<span class="glyphicon glyphicon-chevron-up"></span>
+	  </a>
+	</footer>
+</body>
+</html>
